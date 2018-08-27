@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ERR-HAND>
+    <ERRMSG ParamCount="0"><![CDATA[Confirm the function ok! The function ID is:
+  %1  ,Name is:  %2  ,Main Ref is:  %3]]></ERRMSG>
+    <ACTION><![CDATA[]]></ACTION>
+</ERR-HAND>

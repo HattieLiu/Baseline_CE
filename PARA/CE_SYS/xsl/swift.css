@@ -1,0 +1,119 @@
+TD.ContentBorderLeftRithtBottom
+{
+    BORDER-RIGHT: #A7B8C7 1px solid;
+    BORDER-LEFT: #A7B8C7 1px solid;	
+	BORDER-BOTTOM: #A7B8C7 1px solid;	
+}
+
+TD.ContentBorderTopLeft
+{
+    BORDER-TOP: #c4d8e2 2px solid;
+    BORDER-LEFT: #c4d8e2 2px solid;
+	COLOR:#FFFFFF
+}
+.Heading2
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 16px;
+    COLOR: #0054a0;
+    LINE-HEIGHT: 20px;
+    FONT-FAMILY: Verdana, Arial;
+	text-align: right;
+}
+
+.Heading3
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #0054a0;
+    LINE-HEIGHT: 18px;
+    FONT-FAMILY: Verdana, Arial;
+}
+TD.ContentBorderLeft
+{
+    BORDER-LEFT: #c4d8e2 2px solid;
+	COLOR:#FFFFFF
+}
+.FieldName
+{
+    FONT-SIZE: 11px;
+    COLOR: #0054a0;
+    FONT-FAMILY: Verdana, Arial;
+    TEXT-ALIGN: right
+}
+TD.ContentBorderBottomLeft
+{
+    BORDER-LEFT: #c4d8e2 2px solid;
+    BORDER-BOTTOM: #c4d8e2 2px solid;
+	COLOR:#FFFFFF
+}
+.CHAR_M {
+	BORDER-RIGHT: #bbbbbb 1px solid;
+    BORDER-TOP: #bbbbbb 1px solid;
+    FONT-SIZE: 11px;
+    BORDER-LEFT: #bbbbbb 1px solid;
+    COLOR: #0054a0;
+    LINE-HEIGHT: 11px;
+    BORDER-BOTTOM: #bbbbbb 1px solid;
+    FONT-FAMILY: Verdana, Arial;
+	background-color: #f5f5f5;
+
+}
+.DATE_M {
+	BORDER-RIGHT: #bbbbbb 1px solid;
+    BORDER-TOP: #bbbbbb 1px solid;
+    FONT-SIZE: 11px;
+    BORDER-LEFT: #bbbbbb 1px solid;
+    COLOR: #0054a0;
+    LINE-HEIGHT: 11px;
+    BORDER-BOTTOM: #bbbbbb 1px solid;
+    FONT-FAMILY: Verdana, Arial;
+	background-color: #f5f5f5;
+
+}
+.INT_P {
+
+	BORDER-RIGHT: #bbbbbb 1px solid;
+    BORDER-TOP: #bbbbbb 1px solid;
+    FONT-SIZE: 11px;
+    BORDER-LEFT: #bbbbbb 1px solid;
+    COLOR: #0054a0;
+    LINE-HEIGHT: 11px;
+    BORDER-BOTTOM: #bbbbbb 1px solid;
+    FONT-FAMILY: Verdana, Arial;
+    HEIGHT: 19px;
+	background-color: #f5f5f5;
+
+}
+.FLOAT_P {
+
+	BORDER-RIGHT: #bbbbbb 1px solid;
+    BORDER-TOP: #bbbbbb 1px solid;
+    FONT-SIZE: 11px;
+    BORDER-LEFT: #bbbbbb 1px solid;
+    COLOR: #0054a0;
+    LINE-HEIGHT: 11px;
+    BORDER-BOTTOM: #bbbbbb 1px solid;
+    FONT-FAMILY: Verdana, Arial;
+    HEIGHT: 19px;
+	background-color: #f5f5f5;
+
+}
+.DATE_P {
+
+	BORDER-RIGHT: #bbbbbb 1px solid;
+    BORDER-TOP: #bbbbbb 1px solid;
+    FONT-SIZE: 11px;
+    BORDER-LEFT: #bbbbbb 1px solid;
+    COLOR: #0054a0;
+    LINE-HEIGHT: 11px;
+    BORDER-BOTTOM: #bbbbbb 1px solid;
+    FONT-FAMILY: Verdana, Arial;
+    HEIGHT: 19px;
+	background-color: #f5f5f5;
+
+}
+.CHAR_P {
+
+	background-color: #FFFFFF;
+}

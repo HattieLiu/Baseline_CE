@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <ProductIdentifier2Code>
+         <code> </code>
+         <code>BINR</code>
+         <code>COMD</code>
+         <code>EANC</code>
+         <code>HRTR</code>
+         <code>MANI</code>
+         <code>MODL</code>
+         <code>PART</code>
+         <code>QOTA</code>
+         <code>STYL</code>
+         <code>SUPI</code>
+         <code>UPCC</code>
+   </ProductIdentifier2Code>
+   <Incoterms1Code>
+         <code> </code>
+         <code>CFR</code>
+         <code>CIF</code>
+         <code>CIP</code>
+         <code>CPT</code>
+         <code>DAF</code>
+         <code>DDP</code>
+         <code>DDU</code>
+         <code>DEQ</code>
+         <code>DES</code>
+         <code>EXW</code>
+         <code>FAS</code>
+         <code>FCA</code>
+         <code>FOB</code>
+   </Incoterms1Code>
+   <ProductCharacteristics1Code>
+         <code> </code>
+         <code>BISP</code> 
+         <code>CHNR</code>
+         <code>CLOR</code>
+         <code>EDSP</code>
+         <code>ENNR</code>
+         <code>OPTN</code>
+         <code>ORCR</code>
+         <code>PCTV</code>
+         <code>SISP</code>
+         <code>SIZE</code>
+         <code>SPRM</code>
+         <code>STOR</code>
+         <code>SZRG</code>
+         <code>VINR</code>  
+   </ProductCharacteristics1Code>
+   <ProductCategory1Code>
+         <code> </code>
+         <code>GNDR</code> 
+         <code>HRTR</code> 
+         <code>LOBU</code> 
+         <code>PRGP</code> 
+         <code>QOTA</code>   
+   </ProductCategory1Code>
+</root>

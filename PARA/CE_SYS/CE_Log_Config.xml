@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+	<appender name="cetofile" class="com.cs.ce.base.log.CEDailyRollingFileAppender">
+            <param name="LogType"   value="User" />
+            <param name="LogPath"   value="${ce.user.dir}" />
+            <param name="LogFile"   value="CELOG.log" />
+            <param name="Append" value="true" />	    	
+            <layout class="com.cs.ce.base.log.CEPatternLayout">
+								<param name="ConversionPattern" value="%n[Start] [%p] [%c] [%g] [%u] [%s] %d{yyyy-MM-dd HH:mm:ss.SSS} %n%m[End]%n"/>
+            </layout>	    
+	</appender>	
+	<appender name="daotofile" class="com.cs.ce.base.log.CEDailyRollingFileAppender">
+            <param name="LogType"   value="User" />
+            <param name="LogPath"   value="${ce.user.dir}" />
+            <param name="LogFile"   value="DAOLOG.log" />
+            <param name="Append" value="true" />	    	
+            <layout class="com.cs.ce.base.log.CEPatternLayout">
+								<param name="ConversionPattern" value="%n[Start] [%g] [%u] [%s] %p %d{yyyy-MM-dd HH:mm:ss.SSS} %n%m[End]%n"/>
+            </layout>	    
+	</appender>
+	<appender name="daotoconsole" class="org.apache.log4j.ConsoleAppender">
+		      <layout class="com.cs.ce.base.log.CEPatternLayout">
+        			<param name="ConversionPattern" value="%d %-5p [%t] %C{2} (%F:%L) - %m%n"/>
+		      </layout>		
+	</appender>		
+	<appender name="timetofile" class="com.cs.ce.base.log.CEDailyRollingFileAppender">
+            <param name="LogType"   value="System" />
+            <param name="LogPath"   value="${ce.user.dir}" />
+            <param name="LogFile"   value="TIMELOG.log" />            
+            <param name="Append" value="true" />	    	
+            <layout class="com.cs.ce.base.log.CEPatternLayout">
+								<param name="ConversionPattern" value="%n[Start] [%g] [%u] %p %d{yyyy-MM-dd HH:mm:ss.SSS} %n%m[End]%n"/>
+            </layout>	    
+	</appender>
+	<appender name="filtertofile" class="com.cs.ce.base.log.CEDailyRollingFileAppender">
+            <param name="LogType"   value="System" />
+            <param name="LogPath"   value="${ce.user.dir}" />
+            <param name="LogFile"   value="CHARFILTERLOG.log" />
+            <param name="Append" value="true" />	    	
+            <layout class="com.cs.ce.base.log.CEPatternLayout">
+								<param name="ConversionPattern" value="%n[Start] [%g] [%u] %p %d{yyyy-MM-dd HH:mm:ss.SSS} %n%m[End]%n"/>
+            </layout>	    
+	</appender>
+	<appender name="stptofile" class="com.cs.ce.base.log.CEDailyRollingFileAppender">
+            <param name="LogType"   value="System" />
+            <param name="LogPath"   value="${ce.user.dir}" />
+            <param name="LogFile"   value="STPLOG.log" />
+            <param name="Append" value="true" />	    	
+            <layout class="com.cs.ce.base.log.CEPatternLayout">
+								<param name="ConversionPattern" value="%n[Start] [%g] [%u] %p %d{yyyy-MM-dd HH:mm:ss.SSS} %n%m[End]%n"/>
+            </layout>	    
+	</appender>
+	<appender name="rpttofile" class="com.cs.ce.base.log.CEDailyRollingFileAppender">
+            <param name="LogType"   value="System" />
+            <param name="LogPath"   value="${ce.user.dir}" />
+            <param name="LogFile"   value="RPTLOG.log" />
+            <param name="Append" value="true" />	    	
+            <layout class="com.cs.ce.base.log.CEPatternLayout">
+		        		<param name="ConversionPattern" value="%n[Start] [%g] [%u] %p %d{yyyy-MM-dd HH:mm:ss.SSS} %n%m[End]%n"/>
+            </layout>	    
+	</appender>
+	<appender name="archive" class="com.cs.ce.base.log.CEDailyRollingFileAppender">
+            <param name="LogType"   value="System" />
+            <param name="LogPath"   value="${ce.user.dir}" />
+            <param name="LogFile"   value="ARCHIVE.log" />
+            <param name="Append" value="true" />
+            <layout class="com.cs.ce.base.log.CEPatternLayout">
+		        		<param name="ConversionPattern" value="%n[Start][%p][%c] [%g] [%u] [%s]%d{yyyy-MM-dd HH:mm:ss.SSS} %n%m[End]%n"/>
+            </layout>
+	</appender>
+	<logger name="CELOG">
+	  <level value="DEBUG" />
+  	  <appender-ref ref="cetofile" />
+	</logger>
+	<logger name="DAOLOG">
+	  <level value="DEBUG" />
+  	  <appender-ref ref="daotofile" />
+	</logger>
+	<logger name="TIMELOG">
+	  <level value="DEBUG" />
+  	  <appender-ref ref="timetofile" />
+	</logger>
+	<logger name="CHARFILTERLOG">
+	  <level value="DEBUG" />
+  	  <appender-ref ref="filtertofile" />
+	</logger>
+	<logger name="STPLOG">
+	  <level value="DEBUG" />
+  	  <appender-ref ref="stptofile" />
+	</logger>
+	<logger name="RPTLOG">
+	  <level value="DEBUG" />
+  	  <appender-ref ref="rpttofile" />
+	</logger>
+	<logger name="ARCHIVELOG">
+	  <level value="DEBUG" />
+	  <appender-ref ref="archive" />
+	</logger>
+</log4j:configuration>

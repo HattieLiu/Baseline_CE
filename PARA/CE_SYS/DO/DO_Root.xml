@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+    <DO Id="D00000000001" Name="root"/>
+    <DO Id="D00000000003" Name="XDO_PO_LI"/>
+    <DO Id="D00000000006" Name="TDO_ITP"/>
+    <DO Id="D00000000007" Name="TDO_ITPRPT"/>
+    <DO Id="D00000000008" Name="TDO_INV_PO"/>
+    <DO Id="D00000000009" Name="XDO_SA_RF"/>
+    <DO Id="D00000000010" Name="XDO_SA_DF"/>
+    <DO Id="D00000000011" Name="XDO_DUN"/>
+    <DO Id="D00000000012" Name="XDO_INVOICE"/>
+    <DO Id="D00000000013" Name="XDO_INVFIN"/>
+    <DO Id="D00000000014" Name="XDO_FINRTN"/>
+    <DO Id="D00000000015" Name="XDO_DISPUTE"/>
+    <DO Id="D00000000016" Name="XDO_CN"/>
+    <DO Id="D00000000017" Name="Collateral"/>
+    <DO Id="D00000000018" Name="XDO_COLL"/>
+    <DO Id="D00000000019" Name="XDO_PAYINV"/>
+</Root>

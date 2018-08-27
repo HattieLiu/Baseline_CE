@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TSUFldDic Author="Winston Luo 2006.06.12 China Systems Co. (TM)" lang="">
+	
+	<Field Name="ReqdSts" Desc="Request Status"/>
+	<Field Name="ReqId" Desc="Request Identification"/>
+	<Field Name="RjctnId" Desc="Rejection Identification"/>
+	<Field Name="ReqRsn" Desc="Request Reason"/>
+	
+
+	<!--Doc:SubmissnId-->
+	<Field Name="CreDtTm" Desc="Create Date Time:"/>
+	<!--Doc:SubmitrTxRef-->
+	<Field Name="SubmitrTxRef" Desc="Submitter Transaction Reference"/>
+	<!--Doc:Instr-->
+	<Field Name="Instr" Desc="Instruction"/>
+	
+	<!--Doc:Baseln-->
+	<Field Name="Baseln" Desc="Base Line"/>
+	<Field Name="SubmitrBaselnId" Desc="Submitter Baseline Identification"/>
+	<Field Name="Vrsn" Desc="Version:"/>
+	<Field Name="Submitr" Desc="Submitter"/>
+	<Field Name="SvcCd" Desc="Service Code:"/>
+	<Field Name="PurchsOrdrRef" Desc="Purchase Order Reference"/>
+	<Field Name="DtOfIsse" Desc="Date Of Issue:"/>
+	<Field Name="Nm" Desc="Name:"/>
+	<Field Name="PstlAdr" Desc="Postal Address"/>
+	<Field Name="BuyrBk" Desc="Buyer Bank"/>
+	<Field Name="SellrBk" Desc="Seller Bank"/>
+	<Field Name="StrtNm" Desc="Street Name:"/>
+	<Field Name="PstCdId" Desc="Post Code Identification:"/>
+	<Field Name="TwnNm" Desc="Town Name:"/>
+	<Field Name="CtrySubDvsn" Desc="Country Sub Division:"/>
+	<Field Name="Ctry" Desc="Country:"/>
+	<Field Name="Buyr" Desc="Buyer"/>
+	<Field Name="Consgn" Desc="Consignee"/>
+	<Field Name="GoodsDesc" Desc="Goods Description:"/>
+	<Field Name="PrtlShipmnt" Desc="Partial Shipment:"/>
+	<Field Name="TrnsShipmnt" Desc="Trans Shipment:"/>
+	<Field Name="LatstShipmntDt" Desc="Latest Shipment Date:"/>
+	<Field Name="LineItmDtls" Desc="Line Item Details"/>
+	<Field Name="UnitOfMeasrCd" Desc="Unit Of Measure Code:"/>
+	<Field Name="OthrUnitOfMeasr" Desc="Other Unit Of Measure:"/>
+	<Field Name="Val" Desc="Value:"/>
+	<Field Name="Fctr" Desc="Factor:"/>
+	<Field Name="PlusPct" Desc="Plus Percent:"/>
+	<Field Name="MnsPct" Desc="Minus Percent:"/>
+	<Field Name="UnitPric" Desc="Unit Price"/>
+	<Field Name="Amt" Desc="Amount:"/>
+	<Field Name="PricTlrnce" Desc="Price Tolerance"/>
+	<Field Name="PdctNm" Desc="Product Name:"/>
+	<Field Name="PdctIdr" Desc="Product Identifier"/>
+	<Field Name="StrdPdctIdr" Desc="Structured Product Identifier"/>
+	
+	<Field Name="Idr" Desc="Identifier:"/>
+	<Field Name="OthrPdctIdr" Desc="Other Product Identifier"/>
+	<Field Name="Id" Desc="Identification"/>
+	<Field Name="IdTp" Desc="Identification Type:"/>
+	<Field Name="PdctChrtcs" Desc="Product Characteristics"/>
+	<Field Name="StrdPdctChrtcs" Desc="Structured Product Characteristics"/>
+	<Field Name="Chrtcs" Desc="Characteristics:"/>
+	<Field Name="OthrPdctChrtcs" Desc="Other Product Characteristics"/>
+	<Field Name="PdctCtgy" Desc="Product Category"/>
+	<Field Name="StrdPdctCtgy" Desc="Structured Product Category"/>
+	<Field Name="Ctgy" Desc="Category:"/>
+	<Field Name="OthrPdctCtgy" Desc="Other Product Category"/>
+	<Field Name="PdctOrgn" Desc="Product Origin:"/>
+	<Field Name="LatstShipmntDtDesc" Desc="Latest Shipment Date"/>
+	<Field Name="Incotrms" Desc="Incoterms"/>
+	<Field Name="Cd" Desc="Code:"/>
+	<Field Name="Othr" Desc="Other:"/>
+	<Field Name="Lctn" Desc="Location:"/>
+	<Field Name="Adjstmnt" Desc="Adjustment"/>
+	<Field Name="OthrAdjstmntTp" Desc="Other Adjustment Type:"/>
+	<Field Name="Rate" Desc="Rate:"/>
+	<Field Name="Drctn" Desc="Direction:"/>
+	<Field Name="LineItmsTtlAmt" Desc="Line Items Total Amount:"/>
+	<Field Name="RtgSummry" Desc="Routing Summary"/>
+	<Field Name="IndvTrnsprt" Desc="Individual Transport"/>
+	<Field Name="TrnsprtByAir" Desc="Transport By Air"/>
+	<Field Name="DprtureAirprt" Desc="Departure Airport"/>
+	<Field Name="AirprtCd" Desc="Airport Code:"/>
+	<Field Name="OthrAirprtDesc" Desc="Other Airport Description"/>
+	<Field Name="Twn" Desc="Town:"/>
+	<Field Name="AirprtNm" Desc="Airport Name:"/>
+	<Field Name="TrnsprtBySea" Desc="Transport By Sea"/>
+	<Field Name="PortOfLoadng" Desc="Port Of Loading:"/>
+	<Field Name="PortOfDschrge" Desc="Port Of Discharge:"/>
+	<Field Name="TrnsprtByRoad" Desc="Transport By Road"/>
+	<Field Name="PlcOfRct" Desc="Place Of Receipt:"/>
+	<Field Name="PlcOfDlvry" Desc="Place Of Delivery:"/>
+	<Field Name="MltmdlTrnsprt" Desc="MultimodalTransport"/>
+	<Field Name="PortOfLoadng" Desc="Port Of Loading:"/>
+	<Field Name="PortOfDschrge" Desc="Port Of Discharge:"/>
+	<Field Name="TakngInChrg" Desc="Taking In Charge:"/>
+	<Field Name="PlcOfFnlDstn" Desc="Place Of Final Destination:"/>
+	<Field Name="FrghtChrgs" Desc="Freight Charges"/>
+	<Field Name="Chrgs" Desc="Charges"/>
+	<Field Name="OthrChrgsTp" Desc="Other Charges Type:"/>
+	<Field Name="OthrTaxTp" Desc="Other Tax Type:"/>
+	<Field Name="TtlNetAmt" Desc="Total Net Amount:"/>
+	<Field Name="BuyrDfndInf" Desc="Buyer Defined Information"/>
+	<Field Name="SellrDfndInf" Desc="Seller Defined Information"/>
+	<Field Name="Labl" Desc="Label:"/>
+	<Field Name="Inf" Desc="Information:"/>
+	<!--Doc:BuyrCtctPrsn-->
+	<Field Name="BuyrCtctPrsn" Desc="Buyer Contact Person"/>
+	<Field Name="SellrCtctPrsn" Desc="Seller Contact Person"/>
+	<Field Name="BuyrBkCtctPrsn" Desc="Buyer Bank Contact Person"/>
+	<Field Name="SellrBkCtctPrsn" Desc="Seller Bank Contact Person"/>
+	<Field Name="BllToCtctPrsn" Desc="Bill To Contact Person"/>
+	<Field Name="ShipToCtctPrsn" Desc="Ship To Contact Person"/>
+	<Field Name="ConsgnCtctPrsn" Desc="Consignee Contact Person"/>
+	<Field Name="NmPrfx" Desc="Name Prefix:"/>
+	<Field Name="GvnNm" Desc="Given Name:"/>
+	<Field Name="Role" Desc="Role:"/>
+	<Field Name="PhneNb" Desc="Phone Number:"/>
+	<Field Name="FaxNb" Desc="Fax Number:"/>
+	<Field Name="EmailAdr" Desc="Email Address:"/>
+	
+	<!--lucky-->
+	<Field Name="AckId" Desc="Acknowledgement Identification"/>
+	<Field Name="Tp" Desc="Type:"/>
+	<Field Name="TSUBaselnId" Desc="TSU Baseline Identification"/>
+    <Field Name="TxSts" Desc="Transaction Status"/>
+   <Field Name="Sts" Desc="Status:"/>
+   <Field Name="UsrTxRef" Desc="User Transaction Reference"/>
+   <Field Name="IdIssr" Desc=" Identification Issuer"/>
+   <Field Name="AckdMsgRef" Desc="Acknowledged Message Reference"/>
+   <Field Name="ReqForActn" Desc="Request For Action"/>
+    <Field Name="Desc" Desc="Description:"/>
+ <Field Name="RptId" Desc="Report Identification"/>
+   <Field Name="RltdMsgRef" Desc="Related Message Reference"/>
+   <Field Name="Rpt" Desc="Report"/>
+   <Field Name="TxId" Desc="Transaction Identification"/>
+   <Field Name="RptdNtty" Desc="Reported Entity"/>
+   <Field Name="RptdItm" Desc="Reported Item"/>
+   <Field Name="DtTm" Desc="Date Time:"/>
+   <Field Name="Actvty" Desc="Activity"/>
+   <Field Name="MsgNm" Desc="Message Name:"/>
+   <Field Name="Initr" Desc="Initiator"/>
+   <Field Name="PdgReqForActn" Desc="Pending Request For Action"/>
+   <Field Name="NttiesToBeRptd" Desc="Entities To Be Reported"/>
+   <Field Name="RptPrd" Desc="Report Period"/>
+   <Field Name="FrDtTm" Desc="From Date Time:"/>
+   <Field Name="ToDtTm" Desc="To Date Time:"/>
+   <Field Name="Sgn" Desc="Sign:"/>
+   <Field Name="NbOfHrs" Desc="Number Of Hours:"/>
+   <Field Name="AccptncId" Desc="Acceptance Identification"/>
+   <Field Name="DltaRptRef" Desc="Delta Report Reference"/>
+   <Field Name="AccptdAmdmntNb" Desc="Accepted Amendment Number"/>
+   <Field Name="Nb" Desc="Number:"/>
+   <Field Name="NtfctnId" Desc="Notification Identification"/>
+   <Field Name="RjctdAmdmntNb" Desc="Rejected Amendment Number"/>
+   <Field Name="RjctnRsn" Desc="Rejection Reason"/>
+   <Field Name="GblRjctnRsn" Desc="Global Rejection Reason"/>
+   <Field Name="Sellr" Desc="Seller"/>
+   <Field Name="BllTo" Desc="Bill To"/>
+   <Field Name="ShipTo" Desc="Ship To"/>
+   <Field Name="TtlAmt" Desc="Total Amount:"/>
+   <Field Name="LineItmId" Desc="Line Item Identification:"/>
+   <Field Name="Qty" Desc="Quantity"/>
+   <Field Name="QtyTlrnce" Desc="Quantity Tolerance"/>
+   <Field Name="TrnsprtByRail" Desc="Transport By Rail"/>
+   <Field Name="DstnAirprt" Desc="Destination Airport"/>
+   <Field Name="BaselnEstblishmtTrils" Desc="Baseline Establishment Trials"/>
+   <Field Name="Cur" Desc="Current:"/>
+   <Field Name="Lmt" Desc="Limit:"/>
+   <Field Name="CmpardDocRef" Desc="Compared Document Reference"/>
+   <Field Name="DocIndx" Desc="Document Index:"/>
+   <Field Name="NbOfMisMtchs" Desc="Number Of MisMatches:"/>
+    <Field Name="MisMtchInf" Desc="MismMatch Information"/>
+    <Field Name="SeqNb" Desc="Sequence Number:"/>
+    <Field Name="RuleId" Desc="Rule Identification:"/>
+    <Field Name="RuleDesc" Desc="Rule Description:"/>
+    <Field Name="MisMtchdElmt" Desc="MisMatched Element"/>
+    <Field Name="ElmtPth" Desc="Element Path:"/>
+    <Field Name="ElmtNm" Desc="Element Name:"/>
+    <Field Name="ElmtVal" Desc="Element Value:"/>
+    <Field Name="RptTp" Desc="Report Type"/>
+    <Field Name="AmdmntSeqNb" Desc="Amendment Sequence Number:"/>
+    <Field Name="RptdLineItm" Desc="Reported Line Item"/>
+    <Field Name="OrdrdAmt" Desc="Ordered Amount:"/>
+    <Field Name="AccptdAmt" Desc="Accepted Amount:"/>
+    <Field Name="OutsdngAmt" Desc="Outstanding Amount:"/>
+    <Field Name="PdgAmt" Desc="Pending Amount:"/>
+    <Field Name="OrdrdLineItmsTtlAmt" Desc="Ordered Line Items Total Amount:"/>
+    <Field Name="AccptdLineItmsTtlAmt" Desc="Accepted Line Items Total Amount:"/>
+    <Field Name="OutsdngLineItmsTtlAmt" Desc="Outstanding Line Items Total Amount:"/>
+    <Field Name="PdgLineItmsTtlAmt" Desc="Pending Line Items Total Amount:"/>
+    <Field Name="OrdrdTtlNetAmt" Desc="Ordered Total Net Amount:"/>
+    <Field Name="AccptdTtlNetAmt" Desc="Accepted Total Net Amount:"/>
+    <Field Name="OutsdngTtlNetAmt" Desc="Outstanding Total Net Amount:"/>
+    <Field Name="PdgTtlNetAmt" Desc="Pending Total Net Amount:"/>
+    <Field Name="SubmissnId" Desc="Submission Identification"/>
+    <Field Name="SubmissnTp" Desc="Submission Type"/>
+    <Field Name="TxRltdRefs" Desc="Transaction Related References"/>
+    <Field Name="FnlSubmissn" Desc="Final Submission:"/>
+    <Field Name="StordDataSetRef" Desc="Stored Data Set Reference"/>
+    <Field Name="NewComrclDataSet" Desc="New Commercial Data Set"/>
+    <Field Name="DataSetId" Desc="Data Set Identification"/>
+    <Field Name="ComrclDocRef" Desc="Commercial Document Reference"/>
+    <Field Name="ComrclLineItms" desc="Commercial Line Items"/>
+    <Field Name="PmtTerms" Desc="Payment Terms"/>
+    <Field Name="OthrPmtTerms" Desc="Other Payment Terms:"/>
+    <Field Name="Pctg" Desc="Percentage:"/>
+    <Field Name="SttlmTerms" Desc="Settlement Terms"/>
+    <Field Name="NmAndAdr" Desc="Name And Address"/>
+    <Field Name="Adr" Desc="Address"/>
+    <Field Name="NewTrnsprtDataSet" Desc="New Transport Data Set"/>
+    <Field Name="TrnsprtInf" Desc="Transport Information"/>
+    <Field Name="TrnsprtDocRef" Desc="Transport Document Reference"/>
+    <Field Name="TrnsprtdGoods" Desc="Transported Goods"/>
+    <Field Name="VsslNm" Desc="Vessel Name:"/>
+    <Field Name="FnlAgt" Desc="Final Agent"/>
+    <Field Name="BnfcryAcct" Desc="Beneficiary Account"/>
+    <Field Name="PropsdShipmntDt" Desc="Proposed Shipment Date:"/>
+    <Field Name="ActlShipmntDt" Desc="Actual Shipment Date:"/>
+    <Field Name="RoadCrrierNm" Desc="Road Carrier Name:"/>
+    <Field Name="RailCrrierNm" Desc="Rail Carrier Name:"/>
+    <Field Name="AirCrrierNm" Desc="Air Carrier Name:"/>
+    <Field Name="TrnstLctn" Desc="Transit Location:"/>
+    <Field Name="NbOfDays" Desc="Number Of Days:"/>
+    <Field Name="ElmtSeqNb" Desc="Element Sequence Number:"/>
+    <Field Name="CurVal" Desc="Current Value:"/>
+     <Field Name="PropsdVal" Desc="Proposed Value:"/>
+     <Field Name="DeltdVal" Desc="Deleted Value:"/>
+     <Field Name="AmdmntNb" Desc="Amendment Number"/>
+     <Field Name="ErrDesc" Desc="Error Description"/>
+     <Field Name="Elmt" Desc="Element"/>
+     <Field Name="RjctdMsgRef" Desc="Rejected Message Reference"/>
+     <Field Name="NbOfErrs" Desc="Number Of Errors"/>
+     <Field Name="ComrclDataSet" Desc="Commercial Data Set"/>
+     <Field Name="RptPurp" Desc="Report Purpose"/>
+     <Field Name="PushdThrghBaseln" Desc="Baseline Request"/>
+     <Field Name="DataSetMtchRptRef" Desc="Data Set Match Report Reference"/>
+     <Field Name="RmndrId" Desc="Reminder Identification"/>
+     <Field Name="MsgReqrngActn" Desc="Message Requiring Action"/>
+     <Field Name="AccptdSts" Desc="Accepted Status"/>
+     <Field Name="PropsdStsChng" Desc="Proposed Status Change"/>
+     <Field Name="RjctdStsChng" Desc="Rejected Status Change"/>
+     <Field Name="XtndedSts" Desc="Extended Status"/>
+     <Field Name="ChngDtTm" Desc="Change Date Time:"/>
+     <Field Name="StsNotToBeXtnded" Desc="Status Not To Be Extended"/>
+     <Field Name="NonXtndedSts" Desc="Non Extended Status"/>
+     <Field Name="StsToBeXtnded" Desc="Status To Be Extended"/>
+     <Field Name="SubSts" Desc="Sub Status:"/>
+     <Field Name="RptdItms" Desc="Reported Items"/>
+     <Field Name="SubmitrTxRef" Desc="SubmitterTransactionReference:"/>
+     <Field Name="RjctnRsn" Desc="Rejection Reason"/>
+     <Field Name="RjctdAmdmntNb" Desc="Rejected Amendment Number"/>
+     <Field Name="GblRjctnRsn" Desc="Global Rejection Reason"/>
+     <Field Name="UpdtdElmt" Desc="Updated Element"/>
+     <Field Name="Rplcmnt" Desc="Replacement"/>
+     <Field Name="SubmitrPropsdBaselnRef" Desc="Submitter Proposed Baseline Reference"/>
+     <Field Name="RptdItms" Desc="Reported Items"/>
+     <Field Name="TSUBaselnId" Desc="TSU Baseline Identification"/>
+     <Field Name="TxSts" Desc="Transaction Status"/>
+     <Field Name="TmOutDesc" Desc="Time Out Description"/>
+     <Field Name="TxFutrSts" Desc="Transaction Future Status"/>
+     <Field Name="TmOutEvt" Desc="Time Out Event"/>
+     <Field Name="ReqForActn" Desc="Request For Action"/>
+     <Field Name="TrnsprtDataSet" Desc="Transport Data Set"/>
+     <Field Name="RptSpcfctn" Desc="Report Specification"/>
+     <Field Name="Crspdt" Desc="Correspondent"/>
+     <Field Name="PmtCd" Desc="Payment Code"/>
+     <Field Name="DataSetReqrd" Desc="Data Set Required"/>
+     <Field Name="NmAndId" Desc="Name And Identification"/>
+     <Field Name="RjctdElmt" Desc="Rejected Element"/>
+</TSUFldDic>

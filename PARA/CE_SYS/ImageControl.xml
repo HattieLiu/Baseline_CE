@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <upload>
+        <cnty code="US" path="C:\Attachments\" size="5120">pdf,doc,jpg,gif,xls,zip,docx</cnty>
+    </upload>
+    <magic>
+        <number leng="4" offset="0" type="ZIP">50 4B 03 04</number>
+        <number leng="4" offset="0" type="JAR">50 4B 03 04</number>
+        <number leng="2" offset="0" type="GZ">1F 8B</number>
+        <number leng="4" offset="0" type="PDF">25 50 44 46</number>
+        <number leng="8" offset="0" type="DOC">D0 CF 11 E0 A1 B1 1A E1</number>
+        <number leng="8" offset="0" type="WIZ">D0 CF 11 E0 A1 B1 1A E1</number>
+        <number leng="8" offset="0" type="WPS">D0 CF 11 E0 A1 B1 1A E1</number>
+        <number leng="8" offset="0" type="DOT">D0 CF 11 E0 A1 B1 1A E1</number>
+        <number leng="8" offset="0" type="PPT">D0 CF 11 E0 A1 B1 1A E1</number>
+        <number leng="8" offset="0" type="PPS">D0 CF 11 E0 A1 B1 1A E1</number>
+        <number leng="8" offset="0" type="XLS">D0 CF 11 E0 A1 B1 1A E1</number>
+        <number leng="3" offset="0" type="JPG">FF D8 FF</number>
+        <number leng="3" offset="0" type="JPE">FF D8 FF</number>
+        <number leng="3" offset="0" type="JPEG">FF D8 FF</number>
+        <number leng="2" offset="0" type="BMP">42 4D</number>
+        <number leng="2" offset="0" type="DIB">42 4D</number>
+        <number leng="4" offset="0" type="GIF">47 49 46 38</number>
+        <number leng="8" offset="0" type="PNG">89 50 4E 47 0D 0A 1A 0A</number>
+        <number leng="8" offset="0" type="DOCX">50 4B 03 04 14 00 06 00</number>
+        <number leng="8" offset="0" type="PPTX">50 4B 03 04 14 00 06 00</number>
+        <number leng="8" offset="0" type="XLSX">50 4B 03 04 14 00 06 00</number>
+        <number leng="6" offset="0" type="RTF">7B 5C 72 74 66 31</number>
+    </magic>
+    <mime>
+        <cont type="text/plain">txt,text</cont>
+        <cont type="text/HTML">htm,html,xhtml</cont>
+        <cont type="application/pdf">pdf</cont>
+        <cont type="application/msword">doc,dot,rtf,wiz</cont>
+        <cont type="application/vnd.openxmlformats-officedocument.wordprocessingml.document">docx</cont>
+        <cont type="application/vnd.ms-excel">xls,excel</cont>
+        <cont type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet">xlsx</cont>
+        <cont type="image/gif">gif</cont>
+        <cont type="image/jpeg">jpg,jpeg,jpe</cont>
+        <cont type="application/vnd.ms-powerpoint">ppt,pps,pwz,pot,ppa</cont>
+        <cont type="application/postscript">ps,eps,ai</cont>
+        <cont type="text/XML">xml</cont>
+    </mime>
+</root>

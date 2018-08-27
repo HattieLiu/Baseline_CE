@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:Doc="urn:com.cs.tsu">
+ <xsl:include href="SingleTransport2.xsl"/>
+ <xsl:include href="MultimodalTransport2.xsl"/>
+<!--  *********** point <TransportMeans2Choice> Start ********** -->
+	<xsl:template name="TransportMeans2Choice">
+		<xsl:param name="TransportMeans2Choice"/>
+		<xsl:variable name="TransportMeans2Choice_name" select="name($TransportMeans2Choice)"/>
+		
+		<xsl:variable name="fldDesc">
+			<xsl:call-template name="getFldDesc">
+				<xsl:with-param name="FldId" select="$TransportMeans2Choice_name"/>
+			</xsl:call-template>
+		</xsl:variable>
+		<tr>
+			<xsl:element name="TD">
+				<xsl:attribute name="align">left</xsl:attribute>
+				<xsl:attribute name="bgcolor">#ececec</xsl:attribute>
+				<xsl:attribute name="colspan">1000</xsl:attribute>
+				<a>
+					<xsl:attribute name="class">Heading3</xsl:attribute>
+					<xsl:attribute name="style">cursor:hand</xsl:attribute>
+					<xsl:attribute name="onClick">Swap('<xsl:value-of select="$TransportMeans2Choice_name"/>')</xsl:attribute>
+					<xsl:value-of select="$fldDesc"/>
+				</a>
+			</xsl:element>
+		</tr>
+		<tr>
+			<xsl:element name="TD">
+				<xsl:attribute name="colspan">1000</xsl:attribute>
+				<xsl:attribute name="width">95%</xsl:attribute>
+				<xsl:attribute name="align">right</xsl:attribute>
+				<xsl:text>     </xsl:text>
+				<xsl:element name="DIV">
+					<xsl:attribute name="id"><xsl:value-of select="$TransportMeans2Choice_name"/></xsl:attribute>
+					<xsl:attribute name="style">DISPLAY:none;overflow: hidden; border: 0px none #000000;width:95%;</xsl:attribute>
+					<table width="95%" border="0" cellpadding="0" cellspacing="0" align="right">
+						<tr>
+							<td/>
+						</tr>
+						<xsl:for-each select="$TransportMeans2Choice/Doc:IndvTrnsprt">
+						<xsl:variable name="SingleTransport2" select="."/>
+						<xsl:call-template name="SingleTransport2">
+							<xsl:with-param name="SingleTransport2" select="$SingleTransport2"/>
+							<xsl:with-param name="SingleTransport2_parent">
+							     <xsl:value-of select="$TransportMeans2Choice_name"/>
+							</xsl:with-param>
+						</xsl:call-template>
+						</xsl:for-each>
+						<xsl:variable name="MultimodalTransport2" select="$TransportMeans2Choice/Doc:MltmdlTrnsprt"/>
+						<xsl:call-template name="MultimodalTransport2">
+							<xsl:with-param name="MultimodalTransport2" select="$MultimodalTransport2"/>
+							<xsl:with-param name="MultimodalTransport2_parent">
+							     <xsl:value-of select="$TransportMeans2Choice_name"/>
+							</xsl:with-param>
+						</xsl:call-template>
+					</table>
+				</xsl:element>
+			</xsl:element>
+		</tr>
+	</xsl:template>
+	<!--  *********** point <TransportMeans2Choice> end ********** -->
+</xsl:stylesheet>

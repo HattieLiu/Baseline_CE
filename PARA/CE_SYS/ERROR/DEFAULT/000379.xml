@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ERR-HAND>
+    <ERRMSG ParamCount="0"><![CDATA[Please note the Invoice: 1% is/are failed to unlock. ]]></ERRMSG>
+    <ACTION><![CDATA[Please check the request.]]></ACTION>
+</ERR-HAND>

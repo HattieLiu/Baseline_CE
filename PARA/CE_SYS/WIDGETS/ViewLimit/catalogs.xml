@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<summary>
+    <catalog>
+        <desc>ViewLimit</desc>
+        <type>F</type>
+        <key>F05030701137</key>
+        <fields>
+            <field>C_MAIN_REF</field>
+            <field>C_TRX_REF</field>
+            <field>C_UNIT_CODE</field>
+            <field>LM_CRED_LMT</field>
+            <field>LM_CUST_ID</field>
+            <field>LM_OUTC_APV</field>
+            <field>LM_OUTD_APV</field>
+        </fields>
+    </catalog>
+</summary>

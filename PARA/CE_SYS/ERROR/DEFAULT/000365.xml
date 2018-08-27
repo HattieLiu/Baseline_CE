@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ERR-HAND>
+    <ERRMSG ParamCount="0"><![CDATA[The number of pop-up window was out of max limitaion.]]></ERRMSG>
+    <ACTION><![CDATA[Please close some window and try again.]]></ACTION>
+</ERR-HAND>

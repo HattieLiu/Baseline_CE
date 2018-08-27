@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<field>
+		<name>C_ExtFld1</name>
+		<desc>C_ExtFld1 description</desc>
+		<type>12</type>
+	</field>
+	<!-- multiple field elements are allowed -->
+	<!-- varchar2 = 12 -->
+	<!-- char = 1 -->
+	<!-- decimal = 3 -->
+	<!-- longvarchar = -1 -->
+	<!-- time = 92 -->
+	<!-- timestamp= 93 -->
+	<!-- clob = 2005 -->
+	<!-- integer = 4 -->
+	<!-- float = 6 -->
+	<!-- double = 8 -->
+	<!-- numeric = 2 -->
+</root>

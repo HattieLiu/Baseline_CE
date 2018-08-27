@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Doc:Document xmlns:Doc="urn:com.cs.tsu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Doc:tsmt.001.001.02>
+		<Doc:UsrTxRef>
+		<Doc:Id>ABCDEFGHIJKLMNOPQRST123456789012345</Doc:Id>
+		<Doc:Name>t84545454</Doc:Name>
+		<Doc:IdIssr>
+			<Doc:BIC>CHASUS31</Doc:BIC>
+		</Doc:IdIssr>
+		<Doc:Idt>
+			<Doc:Btrt>S31</Doc:Btrt>
+		</Doc:Idt>
+	</Doc:UsrTxRef>
+	</Doc:tsmt.001.001.02>
+</Doc:Document>

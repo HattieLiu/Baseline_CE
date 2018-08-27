@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Doc:Document xmlns:Doc="urn:com.cs.tsu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Doc:Tax>
+		<Doc:Tp>PROV</Doc:Tp>
+		<Doc:Amt Ccy="EUR">100000</Doc:Amt>
+	</Doc:Tax>
+</Doc:Document>

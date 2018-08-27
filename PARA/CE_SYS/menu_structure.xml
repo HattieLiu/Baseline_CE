@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<item mlgKey="" desc="Buyer" tp="V">
+		<item mlgKey="" tp="V" id="P14042500000" name="Buyer" desc="Pre-Finance">
+		  <item mlgKey="" tp="F" id="F05030701053" name="Buyer" desc="Request to Sign Agreement"></item>
+		  <item mlgKey="" tp="F" id="F05030701054" name="Buyer" desc="Request to Amend Agreement "></item>
+		  <item mlgKey="" tp="F" id="F05030701093" name="Buyer" desc="View Agreement"></item>
+		  <item mlgKey="" tp="F" id="F05030701056" name="Buyer" desc="Modify Transaction"></item>
+		  <item mlgKey="" tp="F" id="F05030701055" name="Buyer" desc="Delete Transaction"></item>
+		  <item mlgKey="" tp="F" id="F05030701057" name="Buyer" desc="Unlock Transaction"></item>
+		  <item mlgKey="" tp="F" id="F05030701058" name="Buyer" desc="Authorise Transaction"></item>
+		</item>
+		<item mlgKey="" tp="V" id="P14042500001" name="Buyer" desc="Finance">
+		  <item mlgKey="" tp="F" id="F05030701080" name="Buyer" desc="Upload Invoice"></item>
+		  <item mlgKey="" tp="F" id="F05030701116" name="Buyer" desc="Invoice Acceptance by Buyer"></item>
+		  <item mlgKey="" tp="F" id="F05030701084" name="Buyer" desc="Request for Dispute Register"></item>
+		  <item mlgKey="" tp="F" id="F05030701096" name="Buyer" desc="Enquire Invoice"></item>
+		  <item mlgKey="" tp="F" id="F05030701094" name="Buyer" desc="Enquire SBR"></item>
+		  <item mlgKey="" tp="F" id="F05030701088" name="Buyer" desc="Modify Transaction"></item>
+		  <item mlgKey="" tp="F" id="F05030701086" name="Buyer" desc="Delete Transaction"></item>
+		  <item mlgKey="" tp="F" id="F05030701089" name="Buyer" desc="Unlock Transaction"></item>
+		  <item mlgKey="" tp="F" id="F05030701087" name="Buyer" desc="Authorise Transaction"></item>
+		</item>
+	</item>
+	<item mlgKey="" desc="Seller" tp="V">
+		<item mlgKey="" tp="V" id="P14042500000" name="Seller" desc="Pre-Finance">
+		  <item mlgKey="" tp="F" id="F05030701052" name="Seller" desc="Preliminary Credit Assessment Request"></item>
+		  <item mlgKey="" tp="F" id="F05030701053" name="Seller" desc="Request to Sign Agreement"></item>
+		  <item mlgKey="" tp="F" id="F05030701054" name="Seller" desc="Request to Amend Agreement "></item>
+		  <item mlgKey="" tp="F" id="F05030701093" name="Seller" desc="View Agreement"></item>
+		  <item mlgKey="" tp="F" id="F05030701092" name="Seller" desc="View Preliminary Credit Assessment"></item>
+		  <item mlgKey="" tp="F" id="F05030701056" name="Seller" desc="Modify Transaction"></item>
+		  <item mlgKey="" tp="F" id="F05030701055" name="Seller" desc="Delete Transaction"></item>
+		  <item mlgKey="" tp="F" id="F05030701057" name="Seller" desc="Unlock Transaction"></item>
+		  <item mlgKey="" tp="F" id="F05030701058" name="Seller" desc="Authorise Transaction"></item>
+		</item>
+		<item mlgKey="" tp="V" id="P14042500001" name="Seller" desc="Finance">
+		  <item mlgKey="" tp="F" id="F05030701080" name="Seller" desc="Upload Invoice"></item>
+		  <item mlgKey="" tp="F" id="F05030701078" name="Seller" desc="Request for Credit Cover"></item>
+		  <item mlgKey="" tp="F" id="F05030701079" name="Seller" desc="Request for Credit Cover Revision"></item>
+		  <item mlgKey="" tp="F" id="F05030701082" name="Seller" desc="Request for Financing"></item>
+		  <item mlgKey="" tp="F" id="F05030701084" name="Seller" desc="Request for Dispute Register"></item>
+		  <item mlgKey="" tp="F" id="F05030701095" name="Seller" desc="View Credit Cover"></item>
+		  <item mlgKey="" tp="F" id="F05030701096" name="Seller" desc="Enquire Invoice"></item>
+		  <item mlgKey="" tp="F" id="F05030701094" name="Seller" desc="Enquire SBR"></item>
+		  <item mlgKey="" tp="F" id="F05030701088" name="Seller" desc="Modify Transaction"></item>
+		  <item mlgKey="" tp="F" id="F05030701086" name="Seller" desc="Delete Transaction"></item>
+		  <item mlgKey="" tp="F" id="F05030701089" name="Seller" desc="Unlock Transaction"></item>
+		  <item mlgKey="" tp="F" id="F05030701087" name="Seller" desc="Authorise Transaction"></item>
+		</item>
+	</item>
+</root>

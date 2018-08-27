@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ERR-HAND>
+    <ERRMSG ParamCount="0"><![CDATA[The size of uploaded file exceeds the max size.]]></ERRMSG>
+    <ACTION><![CDATA[Please check the file size and try again.]]></ACTION>
+</ERR-HAND>

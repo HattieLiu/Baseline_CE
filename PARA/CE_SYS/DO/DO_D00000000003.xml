@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DO DATATYPE="2005" Desc="PO LineItems XDO Entity" Field="TSU_XDO_PO_LI" Max="n"
+    Min="0" Name="XDO_PO_LI" PendingStore="N"
+    Screen="..\CSBANK\US\WEB\SCRN\DO\PUOD_LI.jsp" StoreInto="D" StoreType="X">
+    <Elements>
+        <Element DATATYPE="12" Desc="Lineitem No." DispInGrid="Y" EEType="" Value="">TSU_LNITMNB</Element>
+        <Element DATATYPE="12" Desc="Product Name" DispInGrid="Y" EEType="" Value="">TSU_PDCTNM</Element>
+        <Element DATATYPE="12" Desc="UOM Quantity Code" DispInGrid="Y" EEType="" Value="">TSUR2_QTY_UNIT_CD</Element>
+        <Element DATATYPE="2" Desc="Quantity Value" DispInGrid="Y" EEType="" Value="">TSU_QTY_VAL</Element>
+        <Element DATATYPE="3" Desc="Unit Price" DispInGrid="Y" EEType="AMT" Value="">TSU_UNITPRIC_AMT</Element>
+        <Element DATATYPE="3" Desc="Lineitem Total Amount" DispInGrid="Y"
+            EEType="AMT" Value="">TSU_TTL_AMT</Element>
+    </Elements>
+</DO>

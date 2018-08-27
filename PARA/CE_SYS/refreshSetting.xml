@@ -1,0 +1,36 @@
+<root>
+	<exceptions>
+		<exception-uri>
+			<uri></uri>
+		</exception-uri>
+		<exception-svt>
+			<svt>/servlets/WSSUploadImaging</svt>
+		</exception-svt>
+		<exception-req>
+			<params>
+					<param name="_TRX_STATUS">RESEND_GAPI</param>
+			</params>
+			<params>
+					<param name="_TRX_STATUS">INQTRX_UNITCODE</param>
+			</params>
+			<params>
+					<param name="_TRX_STATUS">SYS_IMAGES_PRO</param>
+			</params>
+			<params>
+					<param name="_TRX_STATUS">SEARCH_DO_RULE</param>
+			</params>
+			<params>
+					<param name="_TRX_STATUS">CE_EXCELMANAGER</param>
+			</params>
+			<params>
+					<param name="_TRX_STATUS">REQUEST_SENDMAIL</param>
+			</params>
+			<params>
+					<param name="_TRX_STATUS">CE_INQ_IMG</param>
+			</params>
+		</exception-req>
+	</exceptions>
+	<no-exceptions>
+		<no-exception-svt>/screen/SECindex.htm</no-exception-svt>
+	</no-exceptions>
+</root>

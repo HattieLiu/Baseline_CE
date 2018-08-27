@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ERR-HAND>
+    <ERRMSG ParamCount="0"><![CDATA[The user id %1 does not exist or invalid Business Unit Code]]></ERRMSG>
+    <ACTION><![CDATA[Please check the login information and try again]]></ACTION>
+</ERR-HAND>
